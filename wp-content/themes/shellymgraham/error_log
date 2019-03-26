@@ -1,0 +1,2 @@
+[22-Mar-2017 10:04:24] PHP Fatal error:  Call to undefined function  get_header() in /home6/shellym1/public_html/wp-content/themes/shellymgraham/404.php on line 8
+[24-Mar-2017 05:43:57] PHP Fatal error:  Call to undefined function  get_header() in /home6/shellym1/public_html/wp-content/themes/shellymgraham/404.php on line 8

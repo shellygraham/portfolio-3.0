@@ -1,0 +1,577 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajax Load More Filters\n"
+"POT-Creation-Date: 2018-11-03 17:21-0400\n"
+"PO-Revision-Date: 2017-10-05 16:14-0500\n"
+"Last-Translator: Darren Cooney <darren@connekthq.com>\n"
+"Language-Team: \n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: src\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+
+#: admin/api/renderfilter.php:58
+msgid "Error accessing filter"
+msgstr ""
+
+#: admin/api/save.php:195
+msgid "Filter saved successfully"
+msgstr ""
+
+#: admin/api/save.php:203
+msgid "You need to add some filter criteria."
+msgstr ""
+
+#: admin/functions.php:25
+msgid "Filter"
+msgstr ""
+
+#: admin/functions.php:28
+msgid "Date"
+msgstr ""
+
+#: admin/functions.php:54
+msgid "filter block(s) in this filter"
+msgstr ""
+
+#: admin/functions.php:59
+msgid "Edit"
+msgstr ""
+
+#: admin/functions.php:63
+msgid "Delete Filter"
+msgstr ""
+
+#: admin/functions.php:64 admin/functions.php:67
+#: admin/views/includes/edit.php:138
+msgid "Delete"
+msgstr ""
+
+#: admin/functions.php:75 admin/views/includes/edit.php:147
+msgid "Published"
+msgstr ""
+
+#: admin/functions.php:113
+msgid ""
+"It appears you don't have any filters! Your first step in filtering with "
+"Ajax Load More should be to create one"
+msgstr ""
+
+#: admin/functions.php:117 ajax-load-more-filters.php:1068
+msgid "Create Filter"
+msgstr ""
+
+#: admin/views/cta/filter-list.php:2 admin/views/includes/dashboard.php:10
+msgid "Your Filters"
+msgstr ""
+
+#: admin/views/cta/help.php:2
+msgid "Help"
+msgstr ""
+
+#: admin/views/cta/help.php:4
+msgid ""
+"View the Filters documentation for information on implementation methods, "
+"hooks and callback functions"
+msgstr ""
+
+#: admin/views/cta/help.php:7
+msgid "View Documentation"
+msgstr ""
+
+#: admin/views/cta/whats-new.php:2
+msgid "What's New"
+msgstr ""
+
+#: admin/views/cta/whats-new.php:8
+msgid "Learn More"
+msgstr ""
+
+#: admin/views/filters.php:50 admin/views/includes/edit.php:110
+msgid "Filters"
+msgstr ""
+
+#: admin/views/filters.php:51
+msgid "Build and manage your Ajax Load More filters"
+msgstr ""
+
+#: admin/views/includes/dashboard.php:11
+msgid ""
+"All of your Ajax Load More filters are listed below in alphabetical order"
+msgstr ""
+
+#: admin/views/includes/edit.php:26
+msgid "Create New Filter"
+msgstr ""
+
+#: admin/views/includes/edit.php:27
+msgid "Build a new Ajax Load More filter by adjusting the options below"
+msgstr ""
+
+#: admin/views/includes/edit.php:30 ajax-load-more-filters.php:662
+msgid "Edit Filter"
+msgstr ""
+
+#: admin/views/includes/edit.php:31
+msgid "Adjust the options below to edit this filter"
+msgstr ""
+
+#: admin/views/includes/edit.php:31
+msgid "any changes made to the filter must be saved before they take effect"
+msgstr ""
+
+#: admin/views/includes/edit.php:37
+msgid "Options"
+msgstr ""
+
+#: admin/views/includes/edit.php:38
+msgid ""
+"Set up the filter options by entering a filter ID and selecting the "
+"interaction style"
+msgstr ""
+
+#: admin/views/includes/edit.php:48
+msgid "ID"
+msgstr ""
+
+#: admin/views/includes/edit.php:50
+msgid "The unique ID for this filter instance"
+msgstr ""
+
+#: admin/views/includes/edit.php:74
+msgid "Style"
+msgstr ""
+
+#: admin/views/includes/edit.php:75
+msgid "Select the user interaction functionality for this filter"
+msgstr ""
+
+#: admin/views/includes/edit.php:86
+msgid "Select Style"
+msgstr ""
+
+#: admin/views/includes/edit.php:87
+msgid "Change"
+msgstr ""
+
+#: admin/views/includes/edit.php:88
+msgid "Button"
+msgstr ""
+
+#: admin/views/includes/edit.php:97 admin/views/includes/edit.php:592
+msgid "Button Label"
+msgstr ""
+
+#: admin/views/includes/edit.php:98
+msgid "Enter a label for the filter submit button"
+msgstr ""
+
+#: admin/views/includes/edit.php:101 admin/views/includes/edit.php:600
+#: ajax-load-more-filters.php:476 ajax-load-more-filters.php:1391
+msgid "Submit"
+msgstr ""
+
+#: admin/views/includes/edit.php:111
+msgid "Build a custom filter group by adding and removing filter blocks"
+msgstr ""
+
+#: admin/views/includes/edit.php:114
+msgid "Collapse All Filter Groups"
+msgstr ""
+
+#: admin/views/includes/edit.php:115
+msgid "Collapse All Filters"
+msgstr ""
+
+#: admin/views/includes/edit.php:117
+msgid "Expand All Filter Groups"
+msgstr ""
+
+#: admin/views/includes/edit.php:118
+msgid "Expand All Filters"
+msgstr ""
+
+#: admin/views/includes/edit.php:131
+msgid "Add Filter"
+msgstr ""
+
+#: admin/views/includes/edit.php:152
+msgid "Last Modified"
+msgstr ""
+
+#: admin/views/includes/edit.php:183
+msgid "Filter block"
+msgstr ""
+
+#: admin/views/includes/edit.php:200
+msgid "Key"
+msgstr ""
+
+#: admin/views/includes/edit.php:202
+msgid "Select a query parameter (required)"
+msgstr ""
+
+#: admin/views/includes/edit.php:216
+msgid "Select Query Parameter"
+msgstr ""
+
+#: admin/views/includes/edit.php:225
+msgid "Toggle filter parameters"
+msgstr ""
+
+#: admin/views/includes/edit.php:250
+msgid "Taxonomy"
+msgstr ""
+
+#: admin/views/includes/edit.php:260
+msgid "Select Taxonomy"
+msgstr ""
+
+#: admin/views/includes/edit.php:271 admin/views/includes/edit.php:304
+msgid "Operator"
+msgstr ""
+
+#: admin/views/includes/edit.php:295
+msgid "Meta Key"
+msgstr ""
+
+#: admin/views/includes/edit.php:297
+msgid "Enter custom field name"
+msgstr ""
+
+#: admin/views/includes/edit.php:314
+msgid "Select a Meta Operator"
+msgstr ""
+
+#: admin/views/includes/edit.php:324
+msgid "Type"
+msgstr ""
+
+#: admin/views/includes/edit.php:334
+msgid "Select a Meta Type"
+msgstr ""
+
+#: admin/views/includes/edit.php:347
+msgid "Role"
+msgstr ""
+
+#: admin/views/includes/edit.php:367
+msgid "Select an Author Role"
+msgstr ""
+
+#: admin/views/includes/edit.php:385
+msgid "Exclude"
+msgstr ""
+
+#: admin/views/includes/edit.php:387
+msgid "Comma separated list of IDs to exclude from the filter"
+msgstr ""
+
+#: admin/views/includes/edit.php:406
+msgid "Field Type"
+msgstr ""
+
+#: admin/views/includes/edit.php:408
+msgid "Select a form element style for this filter (required)"
+msgstr ""
+
+#: admin/views/includes/edit.php:422
+msgid "Select Field Type"
+msgstr ""
+
+#: admin/views/includes/edit.php:435
+msgid "Custom Values"
+msgstr ""
+
+#: admin/views/includes/edit.php:437
+msgid "Create customized filters by adding custom labels and values"
+msgstr ""
+
+#: admin/views/includes/edit.php:448
+msgid "Label"
+msgstr ""
+
+#: admin/views/includes/edit.php:455
+msgid "Value"
+msgstr ""
+
+#: admin/views/includes/edit.php:468 admin/views/includes/edit.php:469
+msgid "Move Down"
+msgstr ""
+
+#: admin/views/includes/edit.php:477 admin/views/includes/edit.php:478
+msgid "Move Up"
+msgstr ""
+
+#: admin/views/includes/edit.php:486 admin/views/includes/edit.php:487
+msgid "Remove"
+msgstr ""
+
+#: admin/views/includes/edit.php:498
+msgid "Add Value"
+msgstr ""
+
+#: admin/views/includes/edit.php:509
+msgid "Preselected Value"
+msgstr ""
+
+#: admin/views/includes/edit.php:511
+msgid ""
+"Set a preselected state (slug) for this filter block. The value set here "
+"will be the element selected on initial page load"
+msgstr ""
+
+#: admin/views/includes/edit.php:527
+msgid "Default Value"
+msgstr ""
+
+#: admin/views/includes/edit.php:529
+msgid ""
+"Set a default fallback value for this filter block. Default values allow "
+"you match parameters set in the core Ajax Load More shortcode"
+msgstr ""
+
+#: admin/views/includes/edit.php:545
+msgid "Placeholder Text"
+msgstr ""
+
+#: admin/views/includes/edit.php:547
+msgid "Placeholder text displayed on the <input> element"
+msgstr ""
+
+#: admin/views/includes/edit.php:563
+msgid "Form Label"
+msgstr ""
+
+#: admin/views/includes/edit.php:565
+msgid "The label for the <input> element"
+msgstr ""
+
+#: admin/views/includes/edit.php:571
+msgid "Default Label"
+msgstr ""
+
+#: admin/views/includes/edit.php:573
+msgid "The default label of the <select> element"
+msgstr ""
+
+#: admin/views/includes/edit.php:582
+msgid "-- Select --"
+msgstr ""
+
+#: admin/views/includes/edit.php:594
+msgid "The text display value of the submit button"
+msgstr ""
+
+#: admin/views/includes/edit.php:594
+msgid "Button will only be rendered if a value is present"
+msgstr ""
+
+#: admin/views/includes/edit.php:610
+msgid "Title"
+msgstr ""
+
+#: admin/views/includes/edit.php:612
+msgid ""
+"Add an optional title for this filter block. Titles are displayed as <h3> "
+"elements above the form element"
+msgstr ""
+
+#: admin/views/includes/edit.php:627
+msgid "Remove Filter"
+msgstr ""
+
+#: admin/views/includes/navigation.php:2
+msgid "Dashboard"
+msgstr ""
+
+#: admin/views/includes/navigation.php:4
+msgid "Create"
+msgstr ""
+
+#: admin/views/includes/navigation.php:5
+msgid "Tools"
+msgstr ""
+
+#: admin/views/includes/output-php.php:3
+msgid "Generated PHP"
+msgstr ""
+
+#: admin/views/includes/output-php.php:4
+msgid ""
+"The following PHP has been generated from your filter selections and can be "
+"added directly to a WordPress template in place of the filter shortcode"
+msgstr ""
+
+#: admin/views/includes/output-php.php:8
+msgid ""
+"Don't forget to update the <strong>{your_alm_id}</strong> value with your "
+"Ajax Load More ID"
+msgstr ""
+
+#: admin/views/includes/output-php.php:9
+msgid "Close Window"
+msgstr ""
+
+#: admin/views/includes/sidebar.php:8
+msgid "Shortcode Output"
+msgstr ""
+
+#: admin/views/includes/sidebar.php:9
+msgid ""
+"Use the following shortcode to generate this Ajax Load More filter instance"
+msgstr ""
+
+#: admin/views/includes/sidebar.php:16
+msgid ""
+"Don't forget to update the <strong>target</strong> parameter with your Ajax "
+"Load More ID"
+msgstr ""
+
+#: admin/views/includes/sidebar.php:19
+msgid "Copy Shortcode"
+msgstr ""
+
+#: admin/views/includes/sidebar.php:20
+msgid "Generate PHP"
+msgstr ""
+
+#: admin/views/includes/tools.php:13
+msgid "Export Filter Groups"
+msgstr ""
+
+#: admin/views/includes/tools.php:14
+msgid ""
+"Select the filter groups you would like to export. Use the export button to "
+"export to a .json file which you can then import to another ALM Filters "
+"instance"
+msgstr ""
+
+#: admin/views/includes/tools.php:20
+msgid "Select Filter Groups for Export"
+msgstr ""
+
+#: admin/views/includes/tools.php:22
+msgid "Toggle All"
+msgstr ""
+
+#: admin/views/includes/tools.php:38
+msgid "Export"
+msgstr ""
+
+#: admin/views/includes/tools.php:48
+msgid "Import Filter Groups"
+msgstr ""
+
+#: admin/views/includes/tools.php:49
+msgid ""
+"Select the Ajax Load More JSON file you would like to import. When you "
+"click the import button below, ALM will import the filter groups"
+msgstr ""
+
+#: admin/views/includes/tools.php:54
+msgid "Select File"
+msgstr ""
+
+#: admin/views/includes/tools.php:58
+msgid "Import"
+msgstr ""
+
+#: ajax-load-more-filters.php:100
+msgid "filter was successfully deleted"
+msgstr ""
+
+#: ajax-load-more-filters.php:208
+msgid "Filter successfully updated."
+msgstr ""
+
+#: ajax-load-more-filters.php:246
+msgid "No filter groups selected"
+msgstr ""
+
+#: ajax-load-more-filters.php:272
+msgid "Incorrect file type"
+msgstr ""
+
+#: ajax-load-more-filters.php:284
+msgid "Import file empty"
+msgstr ""
+
+#: ajax-load-more-filters.php:290 ajax-load-more-filters.php:301
+#: ajax-load-more-filters.php:307 ajax-load-more-filters.php:313
+msgid "JSON file formatted incorrectly"
+msgstr ""
+
+#: ajax-load-more-filters.php:334
+msgid " successfully imported"
+msgstr ""
+
+#: ajax-load-more-filters.php:341
+msgid "An error has occurred"
+msgstr ""
+
+#: ajax-load-more-filters.php:1063
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: ajax-load-more-filters.php:1064
+msgid "Ordering Parameters"
+msgstr ""
+
+#: ajax-load-more-filters.php:1065
+msgid "Date Parameters"
+msgstr ""
+
+#: ajax-load-more-filters.php:1066
+msgid "Category Parameters"
+msgstr ""
+
+#: ajax-load-more-filters.php:1067
+msgid "Tag Parameters"
+msgstr ""
+
+#: ajax-load-more-filters.php:1069
+msgid "Save Changes"
+msgstr ""
+
+#: ajax-load-more-filters.php:1070
+msgid "Filter Saved"
+msgstr ""
+
+#: ajax-load-more-filters.php:1281
+msgid "Disable Filter CSS"
+msgstr ""
+
+#: ajax-load-more-filters.php:1288
+msgid "Color"
+msgstr ""
+
+#: ajax-load-more-filters.php:1309
+msgid ""
+"Customize your installation of the <a href=\"http://connekthq.com/plugins/"
+"ajax-load-more/filters/\">Filters</a> add-on."
+msgstr ""
+
+#: ajax-load-more-filters.php:1329
+msgid "I want to use my own CSS styles."
+msgstr ""
+
+#: ajax-load-more-filters.php:1329
+msgid "View Filter CSS"
+msgstr ""
+
+#: ajax-load-more-filters.php:1365
+msgid "Choose the color of your filter elements"
+msgstr ""
+
+#: ajax-load-more-filters.php:1375
+msgid "Preview"
+msgstr ""
