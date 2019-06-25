@@ -1858,7 +1858,8 @@ body {
           body #intro.project .intro-container:last-child {
             margin-right: 0; } }
       body #intro.project .intro-container p {
-        font-family: "futura-pt", sans-serif; }
+        font-family: "futura-pt", sans-serif;
+        margin-bottom: 10px; }
       body #intro.project .intro-container h2 {
         font-family: "futura-pt", sans-serif;
         color: #441D31; }
@@ -1866,6 +1867,12 @@ body {
         font-family: "futura-pt", sans-serif;
         color: #441D31;
         font-size: 28px; }
+      body #intro.project .intro-container h4 {
+        text-transform: none;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 32px;
+        color: #464645; }
       body #intro.project .intro-container ul {
         margin-bottom: 30px; }
         body #intro.project .intro-container ul li {
@@ -2456,6 +2463,9 @@ body {
           background: rgba(255, 255, 255, 0.2); }
           body #cta.light a:hover h3 {
             color: #fff; }
+    @media all and (min-width: 800px) {
+      body #cta.home-work {
+        margin-top: 60px; } }
     @media all and (max-width: 799px) {
       body #cta.home-work a {
         margin: 39px auto 40px auto; } }

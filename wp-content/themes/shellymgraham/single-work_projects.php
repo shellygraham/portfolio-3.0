@@ -39,6 +39,7 @@ get_header(); ?>
 	<div class="intro-container wide">
 		<h2><?php the_title(); ?></h2>
 			<?php the_content(); ?>
+			<h4>*This site is fully responsive and optimized for mobile viewing</h4>
 	</div>
 	<div class="intro-container tech">
 			<?php $term_names = wp_get_post_terms($post->ID, 'technologies', array('fields' => 'names'));			

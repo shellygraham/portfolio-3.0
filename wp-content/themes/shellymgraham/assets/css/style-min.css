@@ -213,9 +213,10 @@ body #intro .intro-container:last-child{margin-right:0}body #intro .intro-contai
 body #intro .intro-container p{font-size:24px;line-height:40px;color:#464645}@media all and (max-width:799px){body #intro .intro-container p{font-size:22px;line-height:36px}
 }body #intro.project .intro-container{float:left;display:block;margin-right:2.12766%;width:31.91489%;margin-left:8.51064%;text-align:left}
 body #intro.project .intro-container:last-child{margin-right:0}@media all and (max-width:799px){body #intro.project .intro-container{float:left;display:block;margin-right:2.12766%;width:100%;margin-left:0;padding:0 10px;margin-bottom:20px}
-body #intro.project .intro-container:last-child{margin-right:0}}body #intro.project .intro-container p{font-family:"futura-pt",sans-serif}
+body #intro.project .intro-container:last-child{margin-right:0}}body #intro.project .intro-container p{font-family:"futura-pt",sans-serif;margin-bottom:10px}
 body #intro.project .intro-container h2{font-family:"futura-pt",sans-serif;color:#441d31}
 body #intro.project .intro-container h3{font-family:"futura-pt",sans-serif;color:#441d31;font-size:28px}
+body #intro.project .intro-container h4{text-transform:none;font-size:16px;margin-top:10px;margin-bottom:32px;color:#464645}
 body #intro.project .intro-container ul{margin-bottom:30px}body #intro.project .intro-container ul li{font-family:"futura-pt",sans-serif;font-size:22px;color:#464645;line-height:32px}
 body #intro.project .intro-container a span{text-decoration:none;display:inline-block;padding:14px 24px;margin:0 auto 14px auto;background:#c4b7bc;color:#464645;width:auto;font-family:"futura-pt",sans-serif;font-size:18px;font-weight:400;letter-spacing:1px;text-transform:uppercase;transition:all .5s linear}
 body #intro.project .intro-container a:hover span{background:#e5dedf;color:#464645;transition:all .5s linear}
@@ -324,7 +325,7 @@ body #cta a h3{font-family:"futura-pt",sans-serif;font-size:18px;margin:16px 0;c
 body #cta a:hover{background:rgba(70,70,69,0.3);transition:all .5s linear}body #cta a:hover h3{color:#464645}
 body #cta.light{background:#464645}body #cta.light a{background:#e5dedf}body #cta.light a h3{color:#464645;font-family:"futura-pt",sans-serif}
 body #cta.light a:hover{background:rgba(255,255,255,0.2)}body #cta.light a:hover h3{color:#fff}
-@media all and (max-width:799px){body #cta.home-work a{margin:39px auto 40px auto}
+@media all and (min-width:800px){body #cta.home-work{margin-top:60px}}@media all and (max-width:799px){body #cta.home-work a{margin:39px auto 40px auto}
 }body #more-projects{background:#464645;padding:20px 0 0 0;float:left;max-width:71.25em;margin-left:auto;margin-right:auto;width:100%;max-width:none}
 body #more-projects::after{clear:both;content:"";display:table}
 body #more-projects h3{text-align:center;color:#efefe7;font-family:"futura-pt",sans-serif;font-size:36px;margin-bottom:40px}

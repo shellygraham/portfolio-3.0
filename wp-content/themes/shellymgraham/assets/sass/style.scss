@@ -259,6 +259,7 @@ body {
 				}
 				p {
 					font-family: $title;
+					margin-bottom: 10px;
 				}
 				h2 {
 					font-family: $title;
@@ -268,6 +269,13 @@ body {
 				    font-family: $title;
 				    color: $raisin;
 				    font-size: 28px;
+				}
+				h4 {
+					text-transform: none;
+					font-size: 16px;
+					margin-top: 10px;
+					margin-bottom: 32px;
+					color: $pewter;
 				}
 				ul {
 					margin-bottom: 30px;
@@ -921,6 +929,9 @@ body {
 			}
 		}
 		&.home-work {
+			@media all and (min-width: 800px) {
+				margin-top: 60px;
+			}
 			a {
 				@media all and (max-width: 799px) {
 					margin: 39px auto 40px auto;

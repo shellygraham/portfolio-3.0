@@ -20,5 +20,12 @@ jQuery(document).ready(function($){
 		centerMode: true,
 		focusOnSelect: true,
 	});
+	
+	// Work slider back to image top after user selection
 
+  $('.gallery-container.gallery-nav').click(function (){
+    $('html, body').animate({
+      scrollTop: $(".media-container").offset().top -80
+    }, 1000)
+  });	
 });
